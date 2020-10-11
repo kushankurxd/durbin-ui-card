@@ -1,10 +1,19 @@
 import React from 'react'
 
-import { ExampleComponent } from 'durbin-ui-card'
+import { Card } from 'durbin-ui-card'
 import 'durbin-ui-card/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <Card
+      width='400px'
+      height='360px'
+      backgroundColor='#ccc'
+      borderRadius='2px'
+      display='block'
+      cursor='pointer'
+    />
+  )
 }
 
 export default App
